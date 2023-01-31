@@ -18,4 +18,8 @@ export interface BoilerplateCardConfig extends LovelaceCardConfig {
   tap_action?: ActionConfig;
   hold_action?: ActionConfig;
   double_tap_action?: ActionConfig;
+  tempSensor1: string;
+  tempSensor2: string;
+  tempSensor3: string;
+  tempSensor4: string;
 }
